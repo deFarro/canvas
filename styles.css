@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+canvas {
+    background-color: #F2F2F2;
+}
+
+#container {
+    overflow: scroll;
+    position: relative;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#container::-webkit-scrollbar {
+  display: none;
+}
+
+.section {
+    position: absolute;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    background-color: black
+}
+
+.subtitle {
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.title {
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.button {
+    width: 60px;
+    margin-top: 22px;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.button:hover {
+    cursor: pointer;
+}
